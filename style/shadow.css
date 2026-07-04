@@ -1,0 +1,9 @@
+.blog{
+    background-color: aqua;
+    width: 1000px;
+    height: 80px;
+    margin: 50px;
+    box-shadow: 20px 20px 50px burlywood;
+    text-align: center;
+
+}

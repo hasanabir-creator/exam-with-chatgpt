@@ -1,0 +1,49 @@
+
+      /* h1 { */
+        text-align: center;
+        color: crimson;
+        background-color: aqua;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .font {
+        color: blueviolet;
+        text-align: center;
+        font-weight: bold;
+      }
+      ol,
+      ul {
+        background-color: blueviolet;
+        text-align: left;
+      }
+      .peragraph,
+      .header {
+        color: yellowgreen;
+        background-color: rgb(235, 192, 135);
+      }
+
+      article {
+        background-color: lightblue;
+        border: 1px solid black;
+        text-align: right;
+        margin: 40px;
+        padding: 5px;
+      }
+      span{
+        color: rgb(146, 92, 21);
+
+      }
+      span{border-bottom: 3px solid red;}
+      #header{
+        background-color: rgb(158, 201, 238);
+        background-image: url('picture1.jpg');
+        height: 700px;
+        text-align: center;
+        color: beige;
+        padding: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      /* * {
+        margin: 0; */
+    
