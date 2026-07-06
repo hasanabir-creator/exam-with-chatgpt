@@ -35,6 +35,29 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        border: none;
+      }
+      #menu-header{
+        background-color: aquamarine;
+        background-image: url(images.jpg);
+        height: 100vh;
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        border: none;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: centers;
+    color: beige;
+
+      }
+      body{
+        margin: 0px;
+        padding: 0px;
       }
       nav ul {
         display: flex;
@@ -44,11 +67,10 @@
 
       }
       nav ul li{
-        padding: 10px;
+        padding: 4px;
         text-align: center;
         text-decoration: none;
-        list font-style: 8px;
-        
+        font-size: 15px;
       }
 
         nav ul li a{
@@ -56,10 +78,60 @@
           color: black;
           padding: 18px;
           text-decoration: aqua;
+
+
         }
+      .design{background-color: rgb(99, 99, 141);
+        gap:20px;
+        display: flex;
+        nav-up: auto;
+
+      }
+      
+        .design{
+          text-align: center;
+          text-decoration: wavy;
+
+        }
+
       
       
     nav ul li:hover{
       background-color: lightgray;
 
+    }
+
+    .banner{
+     display: flex;
+      padding: 20px;
+      background-color: rgb(175, 175, 89);
+      text-align: center;
+      width: 100%;
+      border-radius: 13px;
+      text-align: center;
+      border-right: 5px;
+
+    }
+   .banner button{
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 4px;
+   }
+   .banner button:hover{
+    background-color: blue;
+   }
+    
+    .button{
+      text-align: center;
+    }
+    footer{
+      text-align: center;
+      background-image: url(image.jpg);
+      
+      
+    }
+    .footer{
+      color: white;
+      text-align: center;
+      align-items: center;
     }
